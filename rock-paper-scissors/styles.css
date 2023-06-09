@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+}
+
+ /* MODALS ----------------------------------------------------------------------------------------------------------------------------------------------- */
+
+ #main-title {
+    color: aliceblue;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+}
+
+#start-modal {
+    position: relative;
+    top: -850px;
+    z-index: 1;
+    margin: auto;
+    background-color: gray;
+    height: 200px;
+    width: 400px;
+}
+ /* RPS image ------------------------------------------------------------------------------------------------------------------------------------------- */
+ .image{
+    background-color: white !important;
+    width: 200px;
+    height: 200px;
+ }
+ #rpsImg { 
+    position: relative;
+    top: -250px;
+    align-items: center;
+    display: grid; 
+    grid-template-columns: repeat(5, 1fr); 
+    grid-template-rows: repeat(5, 1fr); 
+    grid-column-gap: 10px;
+    grid-row-gap: 0px; 
+    
+    }
+    #rockImg { grid-area: 3 / 2 / 4 / 3; } 
+    #paperImg { grid-area: 3 / 3 / 4 / 4; } 
+    #scissorsImg { grid-area: 3 / 4 / 4 / 5; } 
